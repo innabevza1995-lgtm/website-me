@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Гайд: вайб‑кодинг без кода — как делать сайты, ботов и приложения с помощью нейросетей и где здесь деньги." />
+    <title>Гайд — Вайб‑кодинг без кода</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="header" id="top">
+      <div class="container header__inner">
+        <a class="brand" href="./index.html" aria-label="На главную">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span class="brand__text">Бевза Инесса</span>
+        </a>
+        <nav class="nav" aria-label="Навигация">
+          <a class="button button--ghost" href="./index.html#free">Бесплатная консультация</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="guide2">
+      <!-- HERO -->
+      <section class="guide-hero">
+        <div class="container guide-hero__grid">
+          <div class="guide-hero__left">
+            <div class="pill">
+              <span class="pill__dot" aria-hidden="true"></span>
+              Гайд по вайб‑кодингу • 10 минут чтения • 1 промпт для старта
+            </div>
+
+            <h1 class="guide-hero__title">
+              Вайб‑кодинг <span class="text-gradient">без кода</span>
+            </h1>
+
+            <p class="guide-hero__subtitle">
+              Создавайте сайты, ботов и приложения с помощью нейросетей — без программирования. Объясняете словами, а AI собирает
+              техническую часть за вас.
+            </p>
+
+            <div class="guide-hero__actions">
+              <a class="button button--primary" href="#toc">Смотреть содержание ↓</a>
+              <button class="button button--soft" type="button" onclick="window.print()">Сохранить в PDF</button>
+            </div>
+
+            <div class="stats">
+              <div class="stat">
+                <div class="stat__num">0</div>
+                <div class="stat__label">строк кода</div>
+              </div>
+              <div class="stat">
+                <div class="stat__num">2</div>
+                <div class="stat__label">дня практики</div>
+              </div>
+              <div class="stat">
+                <div class="stat__num">∞</div>
+                <div class="stat__label">возможностей</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="guide-hero__right" aria-hidden="true">
+            <div class="photo photo--neuro guide-hero__photo">
+              <div class="guide-hero__screen">
+                <div class="guide-hero__screenTop">
+                  <div class="chip">Prompt</div>
+                  <div class="chip">Result</div>
+                </div>
+                <div class="line">
+                  <span class="k">// Ваш запрос нейросети:</span><br />
+                  <span class="v">Сделай сайт‑визитку для фотографа с галереей, формой записи и отзывами.</span>
+                </div>
+                <div class="guide-hero__cards">
+                  <div class="miniCard">
+                    <div class="miniCard__t">Готовый сайт</div>
+                    <div class="miniCard__s">за минуты</div>
+                  </div>
+                  <div class="miniCard">
+                    <div class="miniCard__t">Адаптив</div>
+                    <div class="miniCard__s">mobile‑first</div>
+                  </div>
+                  <div class="miniCard">
+                    <div class="miniCard__t">Формы</div>
+                    <div class="miniCard__s">работают</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="marquee" aria-hidden="true">
+          <div class="marquee__track">
+            <span>Лендинги</span><span>Telegram‑боты</span><span>Приложения</span><span>Автоматизация</span><span>Сервисы</span
+            ><span>Планировщики</span><span>Трекеры</span><span>Аналитика</span>
+            <span>Лендинги</span><span>Telegram‑боты</span><span>Приложения</span><span>Автоматизация</span><span>Сервисы</span
+            ><span>Планировщики</span><span>Трекеры</span><span>Аналитика</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- TOC + CONTENT -->
+      <section class="section" id="toc">
+        <div class="container guide-layout">
+          <aside class="toc" data-toc>
+            <div class="toc__title">Содержание</div>
+            <a class="toc__link" href="#g1">01 Что такое вайб‑кодинг</a>
+            <a class="toc__link" href="#g2">02 Что можно создавать</a>
+            <a class="toc__link" href="#g3">03 Почему это работает сейчас</a>
+            <a class="toc__link" href="#g4">04 Где здесь деньги</a>
+            <a class="toc__link" href="#g5">05 Что нужно для старта</a>
+            <a class="toc__link" href="#g6">06 Попробуйте прямо сейчас</a>
+            <a class="toc__link" href="#g7">07 Почему одного гайда мало</a>
+            <a class="toc__link" href="#gift">🎁 Подарок за регистрацию</a>
+          </aside>
+
+          <div class="guide-content">
+            <article class="gsec" id="g1">
+              <h2 class="gsec__title">Вайб‑кодинг — вы говорите, нейросеть создаёт</h2>
+              <p class="gsec__text">
+                Вы не пишете код вручную. Вы объясняете словами, что должно получиться — нейросеть собирает техническую часть.
+              </p>
+              <div class="grid grid--3">
+                <div class="service">
+                  <div class="service__icon" aria-hidden="true">💬</div>
+                  <h3 class="service__title">Говорите обычным языком</h3>
+                  <p class="service__text">Никакого синтаксиса, функций и переменных. Просто описываете задачу.</p>
+                </div>
+                <div class="service">
+                  <div class="service__icon" aria-hidden="true">⚡</div>
+                  <h3 class="service__title">Нейросеть делает остальное</h3>
+                  <p class="service__text">Структура, дизайн, логика — всё собирается автоматически по описанию.</p>
+                </div>
+                <div class="service">
+                  <div class="service__icon" aria-hidden="true">🎯</div>
+                  <h3 class="service__title">Вы управляете результатом</h3>
+                  <p class="service__text">Думаете как создатель продукта. Важна идея и процесс, а не код.</p>
+                </div>
+              </div>
+            </article>
+
+            <article class="gsec" id="g2">
+              <h2 class="gsec__title">Что можно создавать с помощью вайб‑кодинга</h2>
+              <p class="gsec__text">Реальные форматы, которые уже используют в жизни и бизнесе.</p>
+
+              <div class="grid grid--2">
+                <div class="panel">
+                  <h3 class="panel__title">🌐 Сайты</h3>
+                  <ul class="list list--compact">
+                    <li class="list__item">лендинги под услуги и продукты</li>
+                    <li class="list__item">страницы для курсов и экспертов</li>
+                    <li class="list__item">страницы мероприятий</li>
+                  </ul>
+                </div>
+                <div class="panel">
+                  <h3 class="panel__title">🤖 Telegram‑боты</h3>
+                  <ul class="list list--compact">
+                    <li class="list__item">запись клиентов</li>
+                    <li class="list__item">заявки и консультации</li>
+                    <li class="list__item">автоматические ответы</li>
+                  </ul>
+                </div>
+                <div class="panel">
+                  <h3 class="panel__title">🛠 Приложения и сервисы</h3>
+                  <ul class="list list--compact">
+                    <li class="list__item">планировщики и трекеры</li>
+                    <li class="list__item">панели управления</li>
+                    <li class="list__item">внутренние инструменты</li>
+                  </ul>
+                </div>
+                <div class="panel">
+                  <h3 class="panel__title">⚡ Автоматизация</h3>
+                  <ul class="list list--compact">
+                    <li class="list__item">учёт и аналитика</li>
+                    <li class="list__item">сбор и обработка данных</li>
+                    <li class="list__item">генерация отчётов</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+
+            <article class="gsec" id="g3">
+              <h2 class="gsec__title">Нейросети изменили правила игры</h2>
+              <div class="grid grid--3">
+                <div class="service">
+                  <div class="service__icon" aria-hidden="true">🗣</div>
+                  <h3 class="service__title">Понимают обычный язык</h3>
+                  <p class="service__text">AI превращает вашу речь в работающие решения.</p>
+                </div>
+                <div class="service">
+                  <div class="service__icon" aria-hidden="true">🧠</div>
+                  <h3 class="service__title">Выстраивают логику</h3>
+                  <p class="service__text">Не просто “текст”, а процессы и связи.</p>
+                </div>
+                <div class="service">
+                  <div class="service__icon" aria-hidden="true">🏗</div>
+                  <h3 class="service__title">Собирают структуры</h3>
+                  <p class="service__text">Сайты и приложения создаются по описанию в несколько предложений.</p>
+                </div>
+              </div>
+              <div class="soft" style="margin-top:12px">
+                Сегодня ценится не знание кода, а умение чётко формулировать задачу и мыслить процессами.
+              </div>
+            </article>
+
+            <article class="gsec" id="g4">
+              <h2 class="gsec__title">Конкретные примеры: где здесь деньги</h2>
+              <div class="grid grid--2">
+                <div class="panel">
+                  <h3 class="panel__title">1) Telegram‑бот для записи</h3>
+                  <p class="para">Для кого: мастера, салоны, сервисы.</p>
+                  <ul class="list list--compact">
+                    <li class="list__item">бот для себя</li>
+                    <li class="list__item">боты на заказ</li>
+                    <li class="list__item">услуга для клиентов</li>
+                  </ul>
+                </div>
+                <div class="panel">
+                  <h3 class="panel__title">2) Сайт или лендинг</h3>
+                  <p class="para">Для кого: эксперты, предприниматели.</p>
+                  <ul class="list list--compact">
+                    <li class="list__item">сайт для себя</li>
+                    <li class="list__item">сайты для клиентов</li>
+                    <li class="list__item">быстрые проекты</li>
+                  </ul>
+                </div>
+                <div class="panel">
+                  <h3 class="panel__title">3) Внутренний сервис</h3>
+                  <p class="para">Для кого: бизнес, команды.</p>
+                  <ul class="list list--compact">
+                    <li class="list__item">учёт и аналитика</li>
+                    <li class="list__item">экономия времени</li>
+                    <li class="list__item">платные проекты</li>
+                  </ul>
+                </div>
+                <div class="panel">
+                  <h3 class="panel__title">4) Свой продукт</h3>
+                  <p class="para">Для кого: подписчики, пользователи.</p>
+                  <ul class="list list--compact">
+                    <li class="list__item">подписка</li>
+                    <li class="list__item">разовая оплата</li>
+                    <li class="list__item">дополнение к услуге</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+
+            <article class="gsec" id="g5">
+              <h2 class="gsec__title">Что нужно для старта (без мифов)</h2>
+              <div class="grid grid--2">
+                <div class="panel">
+                  <h3 class="panel__title">❌ Не нужно</h3>
+                  <ul class="list list--compact">
+                    <li class="list__item">диплом программиста</li>
+                    <li class="list__item">знание языков программирования</li>
+                    <li class="list__item">техническое образование</li>
+                    <li class="list__item">большой бюджет</li>
+                  </ul>
+                </div>
+                <div class="panel panel--accent">
+                  <h3 class="panel__title">✅ Нужно</h3>
+                  <ul class="list list--compact">
+                    <li class="list__item">уметь формулировать задачу</li>
+                    <li class="list__item">понимать логику “что → зачем → как”</li>
+                    <li class="list__item">видеть примеры и разбирать их</li>
+                    <li class="list__item">практика (обязательно)</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+
+            <article class="gsec" id="g6">
+              <h2 class="gsec__title">Попробуйте прямо сейчас</h2>
+              <p class="gsec__text">Скопируйте этот промпт в ChatGPT или Claude и посмотрите, что получится.</p>
+
+              <div class="prompt">
+                <div class="prompt__top">
+                  <div class="prompt__title">📋 Промпт для нейросети</div>
+                  <button class="button button--primary prompt__copy" type="button" data-copy-target="#promptText">
+                    Скопировать
+                  </button>
+                </div>
+                <pre class="prompt__box" id="promptText">Ты — опытный веб‑разработчик и дизайнер.
+
+Создай полноценный одностраничный лендинг в одном HTML‑файле для:
+[опиши свой продукт или услугу]
+
+Требования:
+• современный и минималистичный дизайн
+• адаптивная вёрстка
+• hero‑блок с заголовком, подзаголовком и CTA
+• три преимущества / особенности
+• отзывы (3 шт.)
+• блок с тарифами
+• финальный призыв к действию
+• плавные анимации при прокрутке
+
+Выведи полный HTML‑код, готовый к открытию в браузере.</pre>
+              </div>
+              <div class="soft" style="margin-top:12px">
+                Получили результат? Поздравляю — вы только что попробовали вайб‑кодинг.
+              </div>
+            </article>
+
+            <article class="gsec" id="g7">
+              <h2 class="gsec__title">Почему одного гайда мало</h2>
+              <div class="grid grid--3">
+                <div class="service">
+                  <div class="service__icon" aria-hidden="true">🔬</div>
+                  <h3 class="service__title">Один промпт — это проба</h3>
+                  <p class="service__text">Разовый результат не даёт навыка.</p>
+                </div>
+                <div class="service">
+                  <div class="service__icon" aria-hidden="true">🎲</div>
+                  <h3 class="service__title">Один пример — случайность</h3>
+                  <p class="service__text">Нужно видеть процесс целиком и понимать ошибки.</p>
+                </div>
+                <div class="service">
+                  <div class="service__icon" aria-hidden="true">🏆</div>
+                  <h3 class="service__title">Навык — это система</h3>
+                  <p class="service__text">Практика + обратная связь превращают интерес в результат.</p>
+                </div>
+              </div>
+            </article>
+
+            <article class="gsec" id="gift">
+              <h2 class="gsec__title">🎁 Подарок за регистрацию</h2>
+              <div class="panel panel--accent">
+                <p class="para">
+                  Теперь вы знаете, что такое вайб‑кодинг: есть понимание направления, примеры и первый промпт для практики.
+                  Используйте это.
+                </p>
+                <div class="grid grid--2" style="margin-top:12px">
+                  <div class="list__item">✓ разобрались в теме</div>
+                  <div class="list__item">✓ увидели примеры</div>
+                  <div class="list__item">✓ получили первый промпт</div>
+                  <div class="list__item">✓ готовы пробовать</div>
+                </div>
+              </div>
+
+              <div class="cta-big" style="margin-top:14px">
+                <div class="cta-big__left">
+                  <h2 class="cta-big__title">Хочешь, чтобы “получилось” с первого раза?</h2>
+                  <p class="cta-big__text">
+                    На бесплатной консультации я подберу формат (обучение/клуб/внедрение) и дам простой план первого шага.
+                  </p>
+                </div>
+                <div class="cta-big__right">
+                  <a class="button button--primary button--full" href="./index.html#free">Записаться бесплатно</a>
+                  <div class="cta-big__hint">Перекинет на главную страницу.</div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__left">
+          <div class="footer__meta">© <span data-year></span> • Гайд “Вайб‑кодинг без кода”</div>
+        </div>
+        <div class="footer__right">
+          <a class="footer__link" href="#top">Наверх</a>
+          <a class="footer__link" href="./index.html">На сайт</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>

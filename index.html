@@ -1,0 +1,546 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Нейросети и вайбкодинг с нуля — простым языком и без перегруза. Обучение, клуб, консультации по внедрению AI." />
+    <title>Нейросети и вайбкодинг с нуля — обучение, клуб, консультации</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+    <header class="header" id="top">
+      <div class="container header__inner">
+        <a class="brand" href="#top" aria-label="На верх страницы">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span class="brand__text">Бевза Инесса</span>
+        </a>
+
+        <nav class="nav" aria-label="Основная навигация">
+          <button class="nav__toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="navMenu">
+            <span class="sr-only">Открыть меню</span>
+            <span class="nav__burger" aria-hidden="true"></span>
+          </button>
+
+          <div class="nav__menu" id="navMenu" data-nav-menu>
+            <a class="nav__link" href="#story">История</a>
+            <a class="nav__link" href="#products">Продукты</a>
+            <a class="nav__link" href="#results">Результаты</a>
+            <a class="nav__link" href="#pricing">Форматы</a>
+            <a class="nav__link" href="#faq">FAQ</a>
+            <a class="nav__link" href="./guide.html">Гайд (подарок)</a>
+            <a class="button button--ghost" href="#free">Бесплатно</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- HERO -->
+      <section class="hero">
+        <div class="container hero__grid">
+          <div class="hero__content">
+            <div class="pill">
+              <span class="pill__dot" aria-hidden="true"></span>
+              Простым языком • Без перегруза • С практикой
+            </div>
+            <h1 class="hero__title">Нейросети простым языком — <span class="text-gradient">с нуля</span></h1>
+            <p class="hero__subtitle">
+              Помогаю разобраться в AI, начать использовать его в жизни, учёбе и работе и показываю, как применять это на практике.
+            </p>
+
+            <div class="hero__cta">
+              <a class="button button--primary" href="#free">Записаться на бесплатную консультацию</a>
+              <a class="button button--soft" href="#products">Посмотреть обучение</a>
+            </div>
+
+            <div class="gift gift--hero">
+              <div class="gift__icon" aria-hidden="true">🎁</div>
+              <div class="gift__body">
+                <div class="gift__title">Подарок после регистрации</div>
+                <div class="gift__text">
+                  Гайд «Вайб‑кодинг без кода: как делать сайты, ботов и приложения с помощью нейросетей — и где здесь деньги»
+                </div>
+              </div>
+              <a class="button button--primary gift__btn" href="./guide.html">Скачать гайд</a>
+            </div>
+
+            <div class="hero__trust">
+              <div class="trust">
+                <div class="trust__num">с нуля</div>
+                <div class="trust__text">подходит новичкам</div>
+              </div>
+              <div class="trust">
+                <div class="trust__num">системно</div>
+                <div class="trust__text">без хаоса в голове</div>
+              </div>
+              <div class="trust">
+                <div class="trust__num">практика</div>
+                <div class="trust__text">делаете первые проекты</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__visual">
+            <div class="orb orb--1"></div>
+            <div class="orb orb--2"></div>
+            <div class="photo photo--neuro">
+              <img class="photo__img" src="./assets/hero-photo.png" alt="Фото Бевзы Инессы" loading="eager" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <a class="float-cta" href="#free" aria-label="Записаться бесплатно">
+        Записаться бесплатно
+      </a>
+
+      <!-- PAIN -->
+      <section class="section" id="pain">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Возможно, сейчас у вас так</h2>
+            <p class="section__subtitle">Если узнаёте себя — вы не один(одна). Это нормальный старт.</p>
+          </div>
+
+          <div class="grid grid--2">
+            <div class="panel">
+              <ul class="pain">
+                <li class="pain__item">слышали про нейросети, но не понимаете, с чего начать</li>
+                <li class="pain__item">пробовали ChatGPT, но “не получилось”</li>
+                <li class="pain__item">много информации, но нет системы</li>
+                <li class="pain__item">страшно, что “это сложно”</li>
+                <li class="pain__item">не понимаете, как применить AI в жизни или работе</li>
+              </ul>
+            </div>
+            <div class="panel panel--accent">
+              <div class="big">
+                <div class="big__title">И из‑за этого вы откладываете</div>
+                <div class="big__text">и чувствуете, что упускаете возможности.</div>
+              </div>
+              <div class="soft">
+                Я помогаю пройти этот путь спокойно: простыми шагами, с поддержкой и практикой — без перегруза.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PIVOT -->
+      <section class="section" id="pivot">
+        <div class="container">
+          <div class="center">
+            <h2 class="center__title">На самом деле, проблема не в вас</h2>
+            <p class="center__text">
+              Просто вам никто нормально не объяснил. <br />
+              Без сложных терминов. Без перегруза. Без “вы должны уже всё знать”.
+            </p>
+            <div class="center__cta">
+              <a class="button button--primary" href="#free">Записаться на бесплатную консультацию</a>
+              <a class="button button--soft" href="#products">Выбрать формат</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- STORY -->
+      <section class="section" id="story">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Моя история</h2>
+            <p class="section__subtitle">
+              Доверие строится не словами, а понятной логикой: почему вы, почему сейчас и почему это будет работать.
+            </p>
+          </div>
+
+          <div class="grid grid--2">
+            <div class="panel">
+              <h3 class="panel__title">Почему я этим занимаюсь</h3>
+              <p class="para">
+                Я работаю в образовании и маркетинге более 10 лет. Я — тренер по продажам и ведущий проект‑менеджер в EdTech.
+              </p>
+              <div class="cred">
+                <div class="cred__dot" aria-hidden="true"></div>
+                <div class="cred__text"><strong>Магистр педагогики высшей школы</strong> в области искусственного интеллекта.</div>
+              </div>
+              <p class="para">
+                И я постоянно вижу одну и ту же проблему: люди хотят развиваться, но сталкиваются со сложной подачей и хаосом.
+              </p>
+              <p class="para">
+                Поэтому я начала объяснять нейросети максимально простым языком — так, чтобы было понятно детям, родителям,
+                новичкам и даже тем, кто “вообще не в теме”.
+              </p>
+            </div>
+            <div class="panel">
+              <h3 class="panel__title">Мой принцип</h3>
+              <div class="note note--strong">
+                <div class="note__title">“Я объясняю просто”</div>
+                <div class="note__text">И веду по шагам до результата — чтобы вы не бросили на середине.</div>
+              </div>
+              <div class="tags">
+                <span class="tag">обучение с нуля</span>
+                <span class="tag">практика на задачах</span>
+                <span class="tag">система вместо хаоса</span>
+                <span class="tag">поддержка</span>
+                <span class="tag">без терминов</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- RESULTS -->
+      <section class="section" id="results">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Что вы получите</h2>
+            <p class="section__subtitle">Результаты, которые чувствуются быстро — и остаются с вами.</p>
+          </div>
+
+          <div class="grid grid--3">
+            <article class="service">
+              <div class="service__icon" aria-hidden="true">🧠</div>
+              <h3 class="service__title">Поймёте, как работает AI</h3>
+              <p class="service__text">Без “магии” и без сложных слов — чтобы чувствовать уверенность.</p>
+            </article>
+            <article class="service">
+              <div class="service__icon" aria-hidden="true">🧩</div>
+              <h3 class="service__title">Научитесь пользоваться правильно</h3>
+              <p class="service__text">Шаблоны, примеры, практика — чтобы “получалось”, а не “я пробовал(а)”.</p>
+            </article>
+            <article class="service">
+              <div class="service__icon" aria-hidden="true">🚀</div>
+              <h3 class="service__title">Сделаете первые проекты</h3>
+              <p class="service__text">И начнёте применять AI в жизни, учёбе и работе — сразу по шагам.</p>
+            </article>
+          </div>
+
+          <div class="cta-strip">
+            <div class="cta-strip__text">
+              <strong>Хотите понять, с чего начать?</strong> На консультации разберём ваш уровень и задачи — и я дам простой план.
+            </div>
+            <a class="button button--primary" href="#free">Записаться бесплатно</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRODUCTS -->
+      <section class="section" id="products">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">3 основных формата</h2>
+            <p class="section__subtitle">Выберите то, что подходит вам прямо сейчас: спокойно, по шагам, с поддержкой.</p>
+          </div>
+
+          <div class="grid grid--3">
+            <article class="price">
+              <div class="price__head">
+                <h3 class="price__title">Обучение</h3>
+                <p class="price__desc">Обучение с нуля — спокойно разобраться и начать применять.</p>
+              </div>
+              <div class="price__value">Пошагово</div>
+              <ul class="list list--compact">
+                <li class="list__item">простым языком</li>
+                <li class="list__item">без перегруза</li>
+                <li class="list__item">с поддержкой</li>
+              </ul>
+              <a class="button button--soft" href="#free">Узнать, с чего начать</a>
+            </article>
+
+            <article class="price price--featured">
+              <div class="price__head">
+                <h3 class="price__title">Клуб</h3>
+                <p class="price__desc">Чтобы не учиться в одиночку и не бросить на полпути.</p>
+              </div>
+              <div class="price__value">Подписка</div>
+              <ul class="list list--compact">
+                <li class="list__item">разборы и практика</li>
+                <li class="list__item">идеи и поддержка</li>
+                <li class="list__item">рост в системе</li>
+              </ul>
+              <a class="button button--primary" href="#free">Записаться бесплатно</a>
+            </article>
+
+            <article class="price">
+              <div class="price__head">
+                <h3 class="price__title">Консультации</h3>
+                <p class="price__desc">Если вы эксперт или бизнес — внедрить AI без лишней сложности.</p>
+              </div>
+              <div class="price__value">Внедрение</div>
+              <ul class="list list--compact">
+                <li class="list__item">где AI даст результат</li>
+                <li class="list__item">упростить процессы</li>
+                <li class="list__item">выстроить систему</li>
+              </ul>
+              <a class="button button--soft" href="#free">Обсудить задачу</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- BENEFITS -->
+      <section class="section" id="benefits">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Почему стоит выбрать меня</h2>
+            <p class="section__subtitle">Моя главная сила — “я объясняю просто” и довожу до того, чтобы вы начали делать.</p>
+          </div>
+
+          <div class="grid grid--2">
+            <div class="benefit">
+              <h3 class="benefit__title">Объясняю сложное простым</h3>
+              <p class="benefit__text">Без терминов, без перегруза, без стыда за “я не понимаю”.</p>
+            </div>
+            <div class="benefit">
+              <h3 class="benefit__title">10+ лет в образовании и маркетинге</h3>
+              <p class="benefit__text">Понимаю, как учить и как доводить до результата.</p>
+            </div>
+            <div class="benefit">
+              <h3 class="benefit__title">Соединяю обучение и практику</h3>
+              <p class="benefit__text">Не “посмотрели урок” — а применили и увидели эффект.</p>
+            </div>
+            <div class="benefit">
+              <h3 class="benefit__title">Никакой воды</h3>
+              <p class="benefit__text">Только то, что работает — и то, что вы реально сможете повторить.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FREE CONSULT -->
+      <section class="section" id="free">
+        <div class="container">
+          <div class="cta-big">
+            <div class="cta-big__left">
+              <h2 class="cta-big__title">Запишитесь на бесплатную консультацию</h2>
+              <p class="cta-big__text">
+                Мы разберём вашу ситуацию, уровень и задачи. И я скажу, с чего вам лучше начать — простым планом шагов.
+              </p>
+              <div class="cta-big__bullets">
+                <div class="cta-b">ваша ситуация</div>
+                <div class="cta-b">ваш уровень</div>
+                <div class="cta-b">ваши задачи</div>
+              </div>
+            </div>
+            <div class="cta-big__right">
+              <a class="button button--primary button--full" href="#contacts">Записаться бесплатно</a>
+              <div class="cta-big__hint">Дальше — короткая форма. Без спама.</div>
+              <a class="button button--soft button--full" href="./guide.html" style="margin-top:10px">Скачать гайд (подарок)</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TESTIMONIALS -->
+      <section class="section" id="testimonials">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Отзывы</h2>
+            <p class="section__subtitle">Примеры отзывов (можно заменить на реальные — просто пришлите текст).</p>
+          </div>
+
+          <div class="grid grid--3">
+            <figure class="review">
+              <blockquote class="review__text">
+                “За неделю собрали рабочий прототип агента для поддержки. Впервые увидели, как AI реально разгружает
+                команду.”
+              </blockquote>
+              <figcaption class="review__meta">
+                <div class="avatar" aria-hidden="true">А</div>
+                <div>
+                  <div class="review__name">Алексей</div>
+                  <div class="review__role">СЕО, e‑commerce</div>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="review">
+              <blockquote class="review__text">
+                “Сделали автоматизацию заявок и отчётов — стало меньше ошибок и ручной работы. Всё объяснили простым
+                языком.”
+              </blockquote>
+              <figcaption class="review__meta">
+                <div class="avatar" aria-hidden="true">И</div>
+                <div>
+                  <div class="review__name">Ирина</div>
+                  <div class="review__role">Руководитель отдела продаж</div>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="review">
+              <blockquote class="review__text">
+                “Обучение было супер практичным: шаблоны промптов, безопасность, контроль качества. Команда стала
+                работать быстрее.”
+              </blockquote>
+              <figcaption class="review__meta">
+                <div class="avatar" aria-hidden="true">М</div>
+                <div>
+                  <div class="review__name">Марина</div>
+                  <div class="review__role">Продакт‑менеджер</div>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRICING -->
+      <section class="section" id="pricing">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Форматы работы</h2>
+            <p class="section__subtitle">Ниже — ориентиры. Точный формат подберём на бесплатной консультации.</p>
+          </div>
+
+          <div class="grid grid--3">
+            <article class="price">
+              <div class="price__head">
+                <h3 class="price__title">Обучение с нуля</h3>
+                <p class="price__desc">Понять AI и начать применять — шаг за шагом.</p>
+              </div>
+              <div class="price__value">от 9 900 ₽</div>
+              <ul class="list list--compact">
+                <li class="list__item">простая система вместо хаоса</li>
+                <li class="list__item">шаблоны и примеры</li>
+                <li class="list__item">практика на ваших задачах</li>
+              </ul>
+              <a class="button button--soft" href="#free">Подобрать обучение</a>
+            </article>
+
+            <article class="price price--featured">
+              <div class="price__head">
+                <h3 class="price__title">Клуб по подписке</h3>
+                <p class="price__desc">Чтобы не учиться в одиночку и не бросить.</p>
+              </div>
+              <div class="price__value">от 1 990 ₽/мес</div>
+              <ul class="list list--compact">
+                <li class="list__item">разборы и практика</li>
+                <li class="list__item">поддержка и рост</li>
+                <li class="list__item">простые задания “в дело”</li>
+              </ul>
+              <a class="button button--primary" href="#free">Записаться бесплатно</a>
+            </article>
+
+            <article class="price">
+              <div class="price__head">
+                <h3 class="price__title">Консультации по внедрению AI</h3>
+                <p class="price__desc">Для экспертов и бизнеса — найти точки роста и сделать систему.</p>
+              </div>
+              <div class="price__value">от 14 900 ₽</div>
+              <ul class="list list--compact">
+                <li class="list__item">где AI даст результат</li>
+                <li class="list__item">как упростить процессы</li>
+                <li class="list__item">как начать без лишней сложности</li>
+              </ul>
+              <a class="button button--soft" href="#free">Обсудить задачу</a>
+            </article>
+          </div>
+
+          <p class="hint">
+            Хотите без ошибок выбрать формат? На бесплатной консультации я скажу, с чего лучше начать именно вам.
+          </p>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="section" id="faq">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">FAQ</h2>
+            <p class="section__subtitle">Ответы на частые вопросы — коротко и по делу.</p>
+          </div>
+
+          <div class="faq" data-faq>
+            <details class="faq__item">
+              <summary class="faq__q">С чего лучше начать?</summary>
+              <div class="faq__a">
+                С бесплатной консультации: определим ваш уровень и цель, и я предложу самый простой первый шаг.
+              </div>
+            </details>
+            <details class="faq__item">
+              <summary class="faq__q">Я новичок. Мне точно подойдёт?</summary>
+              <div class="faq__a">
+                Да. Форматы построены так, чтобы “получалось”: простая подача, пошаговая практика и поддержка.
+              </div>
+            </details>
+            <details class="faq__item">
+              <summary class="faq__q">Нужно ли уметь программировать?</summary>
+              <div class="faq__a">
+                Нет. Мы начинаем с простых сценариев. Если вы хотите — покажу и “вайбкодинг” подход, чтобы делать проекты быстрее.
+              </div>
+            </details>
+            <details class="faq__item">
+              <summary class="faq__q">Какой результат будет после старта?</summary>
+              <div class="faq__a">
+                Вы перестанете “тыкаться”, появится система и первые рабочие сценарии, которые вы сможете повторить и развивать.
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACTS -->
+      <section class="section section--contacts" id="contacts">
+        <div class="container">
+          <div class="contact">
+            <div class="contact__left">
+              <h2 class="contact__title">Сделаем первый шаг в AI уже сейчас</h2>
+              <p class="contact__subtitle">
+                Вы можете продолжать откладывать. А можете разобраться и начать использовать нейросети в своей жизни уже сейчас.
+                Напишите мне — и я помогу сделать первый шаг.
+              </p>
+              <div class="contact__chips" aria-label="Каналы связи">
+                <span class="chip chip--muted">Telegram</span>
+                <span class="chip chip--muted">Email</span>
+                <span class="chip chip--muted">Zoom</span>
+              </div>
+            </div>
+
+            <form class="form" data-contact-form>
+              <label class="field">
+                <span class="field__label">Имя</span>
+                <input class="field__input" name="name" autocomplete="name" placeholder="Как к вам обращаться" required />
+              </label>
+              <label class="field">
+                <span class="field__label">Контакт</span>
+                <input class="field__input" name="contact" placeholder="Telegram @username или email" required />
+              </label>
+              <label class="field">
+                <span class="field__label">Коротко о задаче</span>
+                <textarea class="field__input field__input--area" name="message" rows="4" placeholder="Ваш уровень и что хотите получить: обучение / клуб / внедрение" required></textarea>
+              </label>
+              <button class="button button--primary button--full" type="submit">Отправить</button>
+              <p class="form__hint">
+                Отправка здесь сделана без сервера: после клика сформируется текст для Telegram/почты.
+              </p>
+              <div class="form__out" data-form-out hidden></div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__left">
+          <div class="brand brand--small">
+            <span class="brand__mark" aria-hidden="true"></span>
+            <span class="brand__text">Бевза Инесса</span>
+          </div>
+          <div class="footer__meta">© <span data-year></span> • Нейросети простым языком • Обучение • Клуб • Консультации</div>
+        </div>
+        <div class="footer__right">
+          <a class="footer__link" href="#top">Наверх</a>
+          <a class="footer__link" href="#contacts">Контакты</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>
