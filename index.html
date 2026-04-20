@@ -499,6 +499,12 @@
                 <span class="chip chip--muted">Email</span>
                 <span class="chip chip--muted">Zoom</span>
               </div>
+              <div class="contact__actions" aria-label="Кнопки связи">
+                <a class="button button--primary" href="https://t.me/" target="_blank" rel="noopener noreferrer">Telegram</a>
+                <a class="button button--soft" href="mailto:hello@example.com">Email</a>
+                <a class="button button--soft" href="tel:+70000000000">Позвонить</a>
+                <a class="button button--soft" href="https://vk.com/" target="_blank" rel="noopener noreferrer">VK</a>
+              </div>
             </div>
 
             <form class="form" data-contact-form>
@@ -514,12 +520,98 @@
                 <span class="field__label">Коротко о задаче</span>
                 <textarea class="field__input field__input--area" name="message" rows="4" placeholder="Ваш уровень и что хотите получить: обучение / клуб / внедрение" required></textarea>
               </label>
+
+              <fieldset class="checks" aria-label="Согласия">
+                <label class="check">
+                  <input class="check__box" type="checkbox" name="accept_privacy" required />
+                  <span class="check__text">
+                    Даю согласие на обработку персональных данных и ознакомлен(а) с
+                    <a class="inline-link" href="#privacy">политикой конфиденциальности</a>.
+                  </span>
+                </label>
+                <label class="check">
+                  <input class="check__box" type="checkbox" name="accept_terms" required />
+                  <span class="check__text">
+                    Принимаю
+                    <a class="inline-link" href="#terms">пользовательское соглашение</a>.
+                  </span>
+                </label>
+                <label class="check">
+                  <input class="check__box" type="checkbox" name="accept_offer" required />
+                  <span class="check__text">
+                    Принимаю условия
+                    <a class="inline-link" href="#offer">публичной оферты</a>.
+                  </span>
+                </label>
+                <label class="check">
+                  <input class="check__box" type="checkbox" name="accept_marketing" />
+                  <span class="check__text">Согласен(на) получать материалы и новости (необязательно).</span>
+                </label>
+              </fieldset>
+
               <button class="button button--primary button--full" type="submit">Отправить</button>
               <p class="form__hint">
                 Отправка здесь сделана без сервера: после клика сформируется текст для Telegram/почты.
               </p>
               <div class="form__out" data-form-out hidden></div>
             </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- LEGAL -->
+      <section class="section" id="legal">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Документы</h2>
+            <p class="section__subtitle">
+              Здесь стоят шаблоны текстов. Их важно заменить на ваши реальные документы (юридические тексты).
+            </p>
+          </div>
+
+          <div class="legal">
+            <details class="legal__doc" id="privacy">
+              <summary class="legal__q">Политика конфиденциальности</summary>
+              <div class="legal__a">
+                <p class="legal__p">
+                  В этом разделе нужно описать, какие данные вы собираете (например: имя, контакт, сообщение), зачем, как
+                  храните, кому передаёте (если передаёте), и как человек может отозвать согласие.
+                </p>
+                <p class="legal__p">Замените этот текст на ваш реальный документ.</p>
+              </div>
+            </details>
+
+            <details class="legal__doc" id="consent">
+              <summary class="legal__q">Согласие на обработку персональных данных</summary>
+              <div class="legal__a">
+                <p class="legal__p">
+                  Здесь обычно пишут: кто оператор данных, какие данные, цель обработки, срок, способы обработки и как
+                  отозвать согласие.
+                </p>
+                <p class="legal__p">Замените этот текст на ваш реальный документ.</p>
+              </div>
+            </details>
+
+            <details class="legal__doc" id="terms">
+              <summary class="legal__q">Пользовательское соглашение</summary>
+              <div class="legal__a">
+                <p class="legal__p">
+                  Здесь обычно пишут правила использования сайта, ответственность сторон, порядок связи, ограничения и т.д.
+                </p>
+                <p class="legal__p">Замените этот текст на ваш реальный документ.</p>
+              </div>
+            </details>
+
+            <details class="legal__doc" id="offer">
+              <summary class="legal__q">Публичная оферта</summary>
+              <div class="legal__a">
+                <p class="legal__p">
+                  Если вы продаёте услуги/продукты, тут размещают условия: предмет, цена, оплата, возвраты, порядок оказания,
+                  контакты исполнителя и т.д.
+                </p>
+                <p class="legal__p">Замените этот текст на ваш реальный документ.</p>
+              </div>
+            </details>
           </div>
         </div>
       </section>
@@ -535,6 +627,10 @@
           <div class="footer__meta">© <span data-year></span> • Нейросети простым языком • Обучение • Клуб • Консультации</div>
         </div>
         <div class="footer__right">
+          <a class="footer__link" href="#privacy">Политика</a>
+          <a class="footer__link" href="#consent">Согласие</a>
+          <a class="footer__link" href="#terms">Соглашение</a>
+          <a class="footer__link" href="#offer">Оферта</a>
           <a class="footer__link" href="#top">Наверх</a>
           <a class="footer__link" href="#contacts">Контакты</a>
         </div>
